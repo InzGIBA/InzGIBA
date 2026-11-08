@@ -69,11 +69,15 @@
 
   <g>
     <rect class="panel" x="32" y="202" width="896" height="58" rx="10"/>
-    <rect x="52" y="226" width="8" height="8" rx="1" class="gold">
-      <animate class="motion" attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
-    </rect>
-    <text class="k" x="70" y="237">HOMELAB</text>
-    <text class="gold" x="190" y="237" font-size="15">proxmox · unifi · mini-rack cluster</text>
-    <text class="k" x="908" y="237" text-anchor="end" font-size="11">SELF-HOSTED</text>
+    <text class="k" x="52" y="236">HOMELAB</text>
+    <rect class="chipb" x="160" y="216" width="84" height="30" rx="4"/>
+    <text class="chip" x="174" y="236">proxmox</text>
+    <rect class="chipb" x="252" y="216" width="68" height="30" rx="4"/>
+    <text class="chip" x="266" y="236">unifi</text>
+    <rect class="chipb" x="328" y="216" width="98" height="30" rx="4"/>
+    <text class="chip" x="342" y="236">mini-rack</text>
+    <rect class="chipb" x="434" y="216" width="90" height="30" rx="4"/>
+    <text class="chip" x="448" y="236">cluster</text>
+    <text class="k" x="908" y="236" text-anchor="end" font-size="11">SELF-HOSTED</text>
   </g>
 </svg>
