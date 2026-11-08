@@ -59,10 +59,10 @@
     <text class="k" x="658" y="98">DEVOPS</text>
     <rect class="chipb" x="658" y="112" width="78" height="30" rx="4"/>
     <text class="chip" x="672" y="132">docker</text>
-    <rect class="chipb" x="744" y="112" width="40" height="30" rx="4"/>
+    <rect class="chipb" x="744" y="112" width="46" height="30" rx="4"/>
     <text class="chip" x="758" y="132">k8s</text>
-    <rect class="chipb" x="792" y="112" width="50" height="30" rx="4"/>
-    <text class="chip" x="806" y="132">aws</text>
+    <rect class="chipb" x="798" y="112" width="50" height="30" rx="4"/>
+    <text class="chip" x="812" y="132">aws</text>
     <rect class="chipb" x="658" y="150" width="66" height="30" rx="4"/>
     <text class="chip" x="672" y="170">cloud</text>
   </g>
@@ -74,6 +74,6 @@
     </rect>
     <text class="k" x="70" y="237">HOMELAB</text>
     <text class="gold" x="190" y="237" font-size="15">proxmox · unifi · mini-rack cluster</text>
-    <text class="k" x="928" y="237" text-anchor="end" font-size="11">SELF-HOSTED</text>
+    <text class="k" x="908" y="237" text-anchor="end" font-size="11">SELF-HOSTED</text>
   </g>
 </svg>
