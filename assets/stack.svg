@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="228" viewBox="0 0 960 228" role="img" aria-label="Stack">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'Liberation Mono', Menlo, Consolas, monospace; }
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; }
+      .chipb { fill: #0d1117; stroke: #30363d; }
+      .tick { stroke: #30363d; }
+      .k { fill: #8b949e; font-size: 11px; letter-spacing: 2.2px; }
+      .chip { fill: #e6edf3; font-size: 13px; }
+      .gold { fill: #d29922; }
+      .frame { stroke: #30363d; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg frame" x="1" y="1" width="958" height="226" rx="18" stroke-width="1.25"/>
+  <g class="tick" fill="none" stroke-width="1.25">
+    <path d="M22 22 H38 M22 22 V38"/>
+    <path d="M938 22 H922 M938 22 V38"/>
+    <path d="M22 206 H38 M22 206 V190"/>
+    <path d="M938 206 H922 M938 206 V190"/>
+  </g>
+
+  <rect x="32" y="34" width="8" height="8" rx="1" class="gold">
+    <animate class="motion" attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="k gold" x="50" y="43">STACK</text>
+  <text class="k" x="928" y="43" text-anchor="end">8 TOOLS</text>
+
+  <g>
+    <rect class="panel" x="32" y="68" width="442" height="118" rx="10"/>
+    <text class="k" x="52" y="98">BACKEND</text>
+    <rect class="chipb" x="52" y="116" width="78" height="30" rx="4"/>
+    <text class="chip" x="66" y="136">python</text>
+    <rect class="chipb" x="138" y="116" width="78" height="30" rx="4"/>
+    <text class="chip" x="152" y="136">django</text>
+    <rect class="chipb" x="224" y="116" width="86" height="30" rx="4"/>
+    <text class="chip" x="238" y="136">fastapi</text>
+    <rect class="chipb" x="318" y="116" width="46" height="30" rx="4"/>
+    <text class="chip" x="332" y="136">go</text>
+  </g>
+  <g>
+    <rect class="panel" x="486" y="68" width="442" height="118" rx="10"/>
+    <text class="k" x="506" y="98">BEYOND</text>
+    <rect class="chipb" x="506" y="116" width="112" height="30" rx="4"/>
+    <text class="chip" x="520" y="136">typescript</text>
+    <rect class="chipb" x="626" y="116" width="54" height="30" rx="4"/>
+    <text class="chip" x="640" y="136">vue</text>
+    <rect class="chipb" x="688" y="116" width="86" height="30" rx="4"/>
+    <text class="chip" x="702" y="136">flutter</text>
+    <rect class="chipb" x="782" y="116" width="52" height="30" rx="4"/>
+    <text class="chip" x="796" y="136">c++</text>
+  </g>
+</svg>
