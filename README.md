@@ -1,20 +1,20 @@
-<div align="center">
+<a href="https://inzgiba.me" align="center"><img src="assets/banner.svg" alt="almas@wog terminal: whoami, stack, status" width="880" /></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Senior+Backend+Engineer;Python+-+Django+-+FastAPI+-+Go;Reverse+engineering+game+protocols+and+firmware" alt="typing header" />
+<p align="center">
+  <a href="https://inzgiba.me"><img alt="Site" src="https://img.shields.io/badge/inzgiba.me-0d1117?style=flat-square&logo=googlechrome&logoColor=58a6ff"></a>
+  <a href="https://github.com/InzGIBA"><img alt="GitHub" src="https://img.shields.io/badge/github-InzGIBA-0d1117?style=flat-square&logo=github&logoColor=e6edf3"></a>
+  <a href="https://shard.team"><img alt="SHARD" src="https://img.shields.io/badge/company-SHARD-0d1117?style=flat-square&logo=googlechrome&logoColor=3fb950"></a>
+  <a href="mailto:a.baktubayev@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-a.baktubayev-0d1117?style=flat-square&logo=gmail&logoColor=f97316"></a>
+  <a href="https://inzgiba.me"><img alt="Resume" src="https://img.shields.io/badge/resume-jsonresume-0d1117?style=flat-square&logo=readthedocs&logoColor=58a6ff"></a>
+</p>
 
-**Almas Baktubayev** · Almaty, Kazakhstan
+### ⚡ Now
 
-[![Site](https://img.shields.io/badge/site-inzgiba.me-58A6FF?style=flat-square)](https://inzgiba.me)
-[![Email](https://img.shields.io/badge/email-a.baktubayev%40gmail.com-E57373?style=flat-square&logo=gmail&logoColor=white)](mailto:a.baktubayev@gmail.com)
-[![Company](https://img.shields.io/badge/company-SHARD%20%C2%B7%20shard.team-3FB950?style=flat-square)](https://shard.team)
+- Building **[SHARD](https://github.com/syntax-source)**, a web engineering studio: [shard.team](https://shard.team)
+- Released [ReWOG 2.7](https://github.com/InzGIBA/ReWOG): game API auth reverse engineered from a fresh capture
+- Contributing: MetaHookSv (C++ engine mods), django-unfold, GateCHA (Go)
 
-I build Python and Go services and lead engineering teams. Building **[SHARD](https://github.com/syntax-source)**, a web engineering studio.
-
-</div>
-
----
-
-### Selected work
+### 🚀 Selected work
 
 | Project | What it is |
 |---|---|
@@ -22,7 +22,7 @@ I build Python and Go services and lead engineering teams. Building **[SHARD](ht
 | [cig_config](https://github.com/InzGIBA/cig_config) | Firmware config RE tool: XOR-XML payload, CIGG footer, CRC-32/BZIP2 |
 | [JSON-Resume](https://github.com/InzGIBA/JSON-Resume) | My resume in the jsonresume.org format |
 
-### Open source contributions
+### 🌍 Open source contributions
 
 | Upstream | Area | PRs |
 |---|---|---|
@@ -33,12 +33,16 @@ I build Python and Go services and lead engineering teams. Building **[SHARD](ht
 | [phasmoeditor](https://github.com/cnnrde/phasmoeditor) | Phasmophobia save editor: save parser refactor | 7 |
 | [vibe](https://github.com/di-sukharev/vibe) | Template hardening: fixed secrets leaking into the docker image | 5 |
 
-### Activity
+### 📊 Snapshot
 
-<img src="https://streak-stats.demolab.com?user=InzGIBA&hide_border=true" alt="contribution streak" width="560" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=InzGIBA&hide_border=true&ring_color=58a6ff&fire_color=58a6ff&currStreakNum=8b949e&sideNums=8b949e&currStreakLabel=e6edf3&sideLabels=8b949e&dates=30363d" alt="contribution streak" width="560" />
+</p>
 
-### Stack
+### 🧰 Stack
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,go,ts,vue,flutter,postgres,docker,redis,git,linux&perline=10" alt="tech stack icons" /></a>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,go,ts,vue,flutter,postgres,docker,redis,git,linux&perline=10" alt="tech stack icons" /></a>
+</p>
 
-C++ as a hobby: game engine internals.
+<p align="center"><sub>C++ as a hobby: game engine internals.</sub></p>
