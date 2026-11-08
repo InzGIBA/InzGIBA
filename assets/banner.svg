@@ -1,45 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="amber phosphor terminal: whoami, stack, status">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="352" viewBox="0 0 880 352" role="img" aria-label="whoami and stack data card">
   <defs>
     <style>
       text { font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
-      .usr  { fill: #ffb000; font-size: 17px; font-weight: 600; }
-      .pth  { fill: #8a6d33; font-size: 17px; }
-      .cmd  { fill: #e8dcc0; font-size: 17px; }
-      .out  { fill: #9a7b2e; font-size: 17px; }
-      .hi   { fill: #ffb000; font-size: 17px; }
+      .tag  { fill: #0b0906; font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+      .name { fill: #e8dcc0; font-size: 14px; }
+      .val  { fill: #9a7b2e; font-size: 13px; }
+      .hi   { fill: #ffb000; font-size: 13px; }
+      .ft   { fill: #8a6d33; font-size: 12px; }
       .ttl  { fill: #8a6d33; font-size: 12px; letter-spacing: 2px; }
-      .ctx  { fill: #8a6d33; font-size: 13px; }
-      .ctxb { fill: #ffb000; font-size: 13px; }
-      .ln   { opacity: 0; }
+      .sec  { opacity: 0; }
     </style>
   </defs>
 
-  <!-- window -->
-  <rect x="6" y="6" width="868" height="288" rx="6" fill="#0b0906" stroke="#4a3b1a" stroke-width="1.5"/>
-  <!-- title interrupting the border, TUI-dialog style -->
-  <rect x="352" y="0" width="176" height="13" fill="#0b0906"/>
-  <text class="ttl" x="440" y="11" text-anchor="middle">almas@wog — zsh</text>
+  <rect x="6" y="6" width="868" height="340" rx="6" fill="#0b0906" stroke="#4a3b1a" stroke-width="1.5"/>
+  <rect x="344" y="0" width="192" height="13" fill="#0b0906"/>
+  <text class="ttl" x="440" y="11" text-anchor="middle">almas.baktubayev — whoami</text>
 
-  <!-- session -->
-  <g>
-    <text class="ln" x="32" y="66"><tspan class="usr">almas@wog</tspan><tspan class="pth"> ~ </tspan><tspan class="usr">% </tspan><tspan class="cmd">whoami</tspan>
-      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.1s" fill="freeze"/></text>
-    <text class="ln out" x="32" y="98">senior backend engineer · Almaty, KZ
-      <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.1s" fill="freeze"/></text>
-    <text class="ln" x="32" y="134"><tspan class="usr">almas@wog</tspan><tspan class="pth"> ~ </tspan><tspan class="usr">% </tspan><tspan class="cmd">cat stack.txt</tspan>
-      <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.1s" fill="freeze"/></text>
-    <text class="ln out" x="32" y="166">python · django · fastapi · go · ts · c++
-      <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.1s" fill="freeze"/></text>
-    <text class="ln" x="32" y="202"><tspan class="usr">almas@wog</tspan><tspan class="pth"> ~ </tspan><tspan class="usr">% </tspan><tspan class="cmd">status --now</tspan>
-      <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.1s" fill="freeze"/></text>
-    <text class="ln hi" x="32" y="234">building SHARD → shard.team
-      <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.1s" fill="freeze"/></text>
-    <rect x="310" y="219" width="10" height="19" fill="#ffb000">
-      <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1.05s" repeatCount="indefinite"/>
-    </rect>
+  <!-- WHOAMI -->
+  <g class="sec">
+    <rect x="32" y="36" width="82" height="22" rx="2" fill="#ffb000"/>
+    <text class="tag" x="73" y="51" text-anchor="middle">WHOAMI</text>
+    <line x1="126" y1="47" x2="848" y2="47" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="2 5"/>
+    <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.1s" fill="freeze"/>
   </g>
 
-  <!-- contacts: dotted leader, one dim line -->
-  <line x1="32" y1="258" x2="848" y2="258" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="2 5"/>
-  <text class="ctx" x="32" y="282">contact <tspan fill="#57451f">·····</tspan> <tspan class="ctxb">inzgiba.me</tspan> <tspan fill="#57451f">·</tspan> <tspan class="ctxb">github/InzGIBA</tspan> <tspan fill="#57451f">·</tspan> <tspan class="ctxb">shard.team</tspan> <tspan fill="#57451f">·</tspan> <tspan class="ctxb">a.baktubayev@gmail.com</tspan></text>
+  <g class="sec">
+    <text class="name" x="32" y="88">role</text>
+    <line x1="70" y1="84" x2="250" y2="84" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="1.5 5"/>
+    <text class="val" x="260" y="88">senior backend engineer</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.1s" fill="freeze"/>
+  </g>
+  <g class="sec">
+    <text class="name" x="32" y="120">location</text>
+    <line x1="99" y1="116" x2="250" y2="116" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="1.5 5"/>
+    <text class="val" x="260" y="120">Almaty, Kazakhstan</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.1s" fill="freeze"/>
+  </g>
+  <g class="sec">
+    <text class="name" x="32" y="152">company</text>
+    <line x1="91" y1="148" x2="250" y2="148" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="1.5 5"/>
+    <text class="hi" x="260" y="152">SHARD → shard.team</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.1s" fill="freeze"/>
+  </g>
+
+  <!-- STACK -->
+  <g class="sec">
+    <rect x="32" y="192" width="72" height="22" rx="2" fill="#ffb000"/>
+    <text class="tag" x="68" y="207" text-anchor="middle">STACK</text>
+    <line x1="116" y1="203" x2="848" y2="203" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="2 5"/>
+    <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.1s" fill="freeze"/>
+  </g>
+
+  <g class="sec">
+    <text class="name" x="32" y="244">backend</text>
+    <line x1="91" y1="240" x2="250" y2="240" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="1.5 5"/>
+    <text class="val" x="260" y="244">python · django · fastapi · go</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.1s" fill="freeze"/>
+  </g>
+  <g class="sec">
+    <text class="name" x="32" y="276">beyond</text>
+    <line x1="77" y1="272" x2="250" y2="272" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="1.5 5"/>
+    <text class="val" x="260" y="276">typescript · vue · flutter · c++</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.1s" fill="freeze"/>
+  </g>
+
+  <!-- footer -->
+  <line x1="32" y1="308" x2="848" y2="308" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="2 5"/>
+  <text class="ft" x="32" y="336">contact <tspan fill="#57451f">··············································</tspan> <tspan fill="#ffb000">inzgiba.me · github/inzgiba · a.baktubayev@gmail.com</tspan></text>
 </svg>
