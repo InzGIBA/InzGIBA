@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="372" viewBox="0 0 960 372" role="img" aria-label="Projects">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'Liberation Mono', Menlo, Consolas, monospace; }
+      .bg { fill: #ffffff; }
+      .panel { fill: #f6f8fa; stroke: #d0d7de; }
+      .tick { stroke: #d0d7de; }
+      .k { fill: #59636e; font-size: 11px; letter-spacing: 2.2px; }
+      .title { fill: #1f2328; font-size: 16px; }
+      .desc { fill: #59636e; font-size: 13px; }
+      .idx { fill: #9a6700; font-size: 13px; letter-spacing: 1px; }
+      .gold { fill: #9a6700; }
+      .bar { stroke: #9a6700; }
+      .frame { stroke: #d0d7de; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg frame" x="1" y="1" width="958" height="370" rx="18" stroke-width="1.25"/>
+  <g class="tick" fill="none" stroke-width="1.25">
+    <path d="M22 22 H38 M22 22 V38"/>
+    <path d="M938 22 H922 M938 22 V38"/>
+    <path d="M22 350 H38 M22 350 V334"/>
+    <path d="M938 350 H922 M938 350 V334"/>
+  </g>
+
+  <rect x="32" y="34" width="8" height="8" rx="1" class="gold">
+    <animate class="motion" attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="k gold" x="50" y="43">PROJECTS</text>
+  <text class="k" x="928" y="43" text-anchor="end">3 PROJECTS</text>
+
+  <g>
+    <rect class="panel" x="32" y="72" width="896" height="82" rx="10"/>
+    <text class="idx" x="52" y="118">01</text>
+    <line class="bar" x1="96" y1="92" x2="96" y2="134" stroke-width="1.5"/>
+    <text class="title" x="116" y="106">ReWOG</text>
+    <text class="desc" x="116" y="130">world of guns api  ·  download  ·  decrypt  ·  unpack 3d models</text>
+    <text class="k" x="900" y="118" text-anchor="end">PYTHON</text>
+  </g>
+  <g>
+    <rect class="panel" x="32" y="166" width="896" height="82" rx="10"/>
+    <text class="idx" x="52" y="212">02</text>
+    <line class="bar" x1="96" y1="186" x2="96" y2="228" stroke-width="1.5"/>
+    <text class="title" x="116" y="200">cig_config</text>
+    <text class="desc" x="116" y="224">firmware re  ·  xor-xml  ·  cigg footer  ·  crc-32/bzip2</text>
+    <text class="k" x="900" y="212" text-anchor="end">FIRMWARE</text>
+  </g>
+  <g>
+    <rect class="panel" x="32" y="260" width="896" height="82" rx="10"/>
+    <text class="idx" x="52" y="306">03</text>
+    <line class="bar" x1="96" y1="280" x2="96" y2="322" stroke-width="1.5"/>
+    <text class="title" x="116" y="294">json-resume</text>
+    <text class="desc" x="116" y="318">jsonresume.org format  ·  inzgiba.me</text>
+    <text class="k" x="900" y="306" text-anchor="end">RESUME</text>
+  </g>
+</svg>
