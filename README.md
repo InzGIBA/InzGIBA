@@ -10,7 +10,7 @@
 
 ### ⚡ Now
 
-- Building **[SHARD](https://github.com/syntax-source)**, a web engineering studio: [shard.team](https://shard.team)
+- Building **[SHARD](https://github.com/shard-src)**, a web engineering studio: [shard.team](https://shard.team)
 - Released [ReWOG 2.7](https://github.com/InzGIBA/ReWOG): game API auth reverse engineered from a fresh capture
 - Contributing: MetaHookSv (C++ engine mods), django-unfold, GateCHA (Go)
 
