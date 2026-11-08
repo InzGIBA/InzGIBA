@@ -53,63 +53,63 @@
     <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.1s" fill="freeze"/>
   </g>
 
-  <!-- bars: track 180..640, 10px per PR -->
+  <!-- bars: hand-written PRs only, log scale -->
   <g class="sec">
-    <text class="name" x="32" y="256">metahooksv</text>
+    <text class="name" x="32" y="256">django-unfold</text>
     <rect x="180" y="244" width="460" height="12" fill="none" stroke="#3a2f14" stroke-width="1.2"/>
     <rect class="bar" x="180" y="244" width="0" height="12">
-      <animate attributeName="width" from="0" to="400" begin="0.9s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="456" begin="0.9s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text class="cnt" x="848" y="256" text-anchor="end">40+ PRs</text>
+    <text class="cnt" x="848" y="256" text-anchor="end">340+ PRs</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.1s" fill="freeze"/>
   </g>
   <g class="sec">
-    <text class="name" x="32" y="296">django-unfold</text>
+    <text class="name" x="32" y="296">metahooksv</text>
     <rect x="180" y="284" width="460" height="12" fill="none" stroke="#3a2f14" stroke-width="1.2"/>
     <rect class="bar" x="180" y="284" width="0" height="12">
-      <animate attributeName="width" from="0" to="300" begin="1.05s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="362" begin="1.05s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text class="cnt" x="848" y="296" text-anchor="end">30+ PRs</text>
+    <text class="cnt" x="848" y="296" text-anchor="end">100+ PRs</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.1s" fill="freeze"/>
   </g>
   <g class="sec">
     <text class="name" x="32" y="336">gatecha</text>
     <rect x="180" y="324" width="460" height="12" fill="none" stroke="#3a2f14" stroke-width="1.2"/>
     <rect class="bar" x="180" y="324" width="0" height="12">
-      <animate attributeName="width" from="0" to="250" begin="1.2s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="357" begin="1.2s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text class="cnt" x="848" y="336" text-anchor="end">25+ PRs</text>
+    <text class="cnt" x="848" y="336" text-anchor="end">90+ PRs</text>
     <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.1s" fill="freeze"/>
   </g>
   <g class="sec">
     <text class="name" x="32" y="376">checkmygit</text>
     <rect x="180" y="364" width="460" height="12" fill="none" stroke="#3a2f14" stroke-width="1.2"/>
     <rect class="bar" x="180" y="364" width="0" height="12">
-      <animate attributeName="width" from="0" to="250" begin="1.35s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="298" begin="1.35s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text class="cnt" x="848" y="376" text-anchor="end">25+ PRs</text>
+    <text class="cnt" x="848" y="376" text-anchor="end">45 PRs</text>
     <animate attributeName="opacity" from="0" to="1" begin="1.25s" dur="0.1s" fill="freeze"/>
   </g>
   <g class="sec">
     <text class="name" x="32" y="416">phasmoeditor</text>
     <rect x="180" y="404" width="460" height="12" fill="none" stroke="#3a2f14" stroke-width="1.2"/>
     <rect class="bar" x="180" y="404" width="0" height="12">
-      <animate attributeName="width" from="0" to="70" begin="1.5s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="108" begin="1.5s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text class="cnt" x="848" y="416" text-anchor="end">7 PRs</text>
+    <text class="cnt" x="848" y="416" text-anchor="end">4 PRs</text>
     <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.1s" fill="freeze"/>
   </g>
   <g class="sec">
     <text class="name" x="32" y="456">vibe</text>
     <rect x="180" y="444" width="460" height="12" fill="none" stroke="#3a2f14" stroke-width="1.2"/>
     <rect class="bar" x="180" y="444" width="0" height="12">
-      <animate attributeName="width" from="0" to="50" begin="1.65s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <animate attributeName="width" from="0" to="108" begin="1.65s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <text class="cnt" x="848" y="456" text-anchor="end">5 PRs</text>
+    <text class="cnt" x="848" y="456" text-anchor="end">4 PRs</text>
     <animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.1s" fill="freeze"/>
   </g>
 
   <!-- footer -->
   <line x1="32" y1="488" x2="848" y2="488" stroke="#4a3b1a" stroke-width="1.5" stroke-dasharray="2 5"/>
-  <text class="ft" x="32" y="514">uptime <tspan fill="#57451f">····················································</tspan> <tspan class="ftb">9 years in production</tspan></text>
+  <text class="ft" x="32" y="514">count <tspan fill="#57451f">·····</tspan> hand-written PRs only, automation excluded <tspan fill="#57451f">·····</tspan> uptime <tspan class="ftb">9 years in production</tspan></text>
 </svg>
