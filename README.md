@@ -11,15 +11,12 @@ Senior backend engineer from Almaty. Python and Go in production, game protocol 
 
 ## 01 · Projects
 
-| Project | | |
-|---|---|---|
-| [ReWOG](https://github.com/InzGIBA/ReWOG) — World of Guns API toolkit: reverse engineered the protocol, downloads, decrypts and unpacks 3D models | [![Stars](https://img.shields.io/github/stars/InzGIBA/ReWOG?style=flat-square&logo=github&logoColor=white&label=%E2%98%85&color=30363d)](https://github.com/InzGIBA/ReWOG/stargazers) | |
-| [cig_config](https://github.com/InzGIBA/cig_config) — firmware config RE tool: XOR-XML, CIGG footer, CRC-32/BZIP2 | [![Stars](https://img.shields.io/github/stars/InzGIBA/cig_config?style=flat-square&logo=github&logoColor=white&label=%E2%98%85&color=30363d)](https://github.com/InzGIBA/cig_config/stargazers) | |
-| [JSON-Resume](https://github.com/InzGIBA/JSON-Resume) — my resume, jsonresume.org format | [![Site](https://img.shields.io/badge/open-inzgiba.me-30363d?style=flat-square&logo=readthedocs&logoColor=58a6ff)](https://inzgiba.me) | |
+| Project | |
+|---|---|
+| [ReWOG](https://github.com/InzGIBA/ReWOG) — World of Guns API toolkit: reverse engineered the protocol, downloads, decrypts and unpacks 3D models | [![Stars](https://img.shields.io/github/stars/InzGIBA/ReWOG?style=flat-square&logo=github&logoColor=white&label=%E2%98%85&color=30363d)](https://github.com/InzGIBA/ReWOG/stargazers) |
+| [cig_config](https://github.com/InzGIBA/cig_config) — firmware config RE tool: XOR-XML, CIGG footer, CRC-32/BZIP2 | [![Stars](https://img.shields.io/github/stars/InzGIBA/cig_config?style=flat-square&logo=github&logoColor=white&label=%E2%98%85&color=30363d)](https://github.com/InzGIBA/cig_config/stargazers) |
+| [JSON-Resume](https://github.com/InzGIBA/JSON-Resume) — my resume, jsonresume.org format | [![Site](https://img.shields.io/badge/open-inzgiba.me-30363d?style=flat-square&logo=readthedocs&logoColor=58a6ff)](https://inzgiba.me) |
 
 ## 02 · Open source
 
-[MetaHookSv](https://github.com/MetaHookSv/MetaHookSv) · C++ engine mods · 40+ PRs
-[django-unfold](https://github.com/unfoldadmin/django-unfold) · 30+ PRs
-[GateCHA](https://github.com/Upellift99/GateCHA) · Go captcha server · 25+ PRs
-[checkmygit](https://github.com/whoisyurii/checkmygit) · 25+ PRs
+[MetaHookSv](https://github.com/MetaHookSv/MetaHookSv) C++ engine mods (40+) · [django-unfold](https://github.com/unfoldadmin/django-unfold) (30+) · [GateCHA](https://github.com/Upellift99/GateCHA) Go (25+) · [checkmygit](https://github.com/whoisyurii/checkmygit) (25+) · [phasmoeditor](https://github.com/cnnrde/phasmoeditor) · [vibe](https://github.com/di-sukharev/vibe)
