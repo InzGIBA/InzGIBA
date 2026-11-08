@@ -1,12 +1,20 @@
-### Hi, I'm Almas Baktubayev
+<div align="center">
 
-Senior backend engineer and technical lead from Almaty, Kazakhstan.
-I build Python and Go services, and I reverse engineer game protocols and firmware formats for fun.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Senior+Backend+Engineer;Python+-+Django+-+FastAPI+-+Go;Reverse+engineering+game+protocols+and+firmware" alt="typing header" />
 
-- Building **[SHARD](https://github.com/syntax-source)**, a web engineering studio: [shard.team](https://shard.team)
-- Site and resume: [inzgiba.me](https://inzgiba.me)
+**Almas Baktubayev** · Almaty, Kazakhstan
 
-#### Selected work
+[![Site](https://img.shields.io/badge/site-inzgiba.me-58A6FF?style=flat-square)](https://inzgiba.me)
+[![Email](https://img.shields.io/badge/email-a.baktubayev%40gmail.com-E57373?style=flat-square&logo=gmail&logoColor=white)](mailto:a.baktubayev@gmail.com)
+[![Company](https://img.shields.io/badge/company-SHARD%20%C2%B7%20shard.team-3FB950?style=flat-square)](https://shard.team)
+
+I build Python and Go services and lead engineering teams. Building **[SHARD](https://github.com/syntax-source)**, a web engineering studio.
+
+</div>
+
+---
+
+### Selected work
 
 | Project | What it is |
 |---|---|
@@ -14,7 +22,7 @@ I build Python and Go services, and I reverse engineer game protocols and firmwa
 | [cig_config](https://github.com/InzGIBA/cig_config) | Firmware config RE tool: XOR-XML payload, CIGG footer, CRC-32/BZIP2 |
 | [JSON-Resume](https://github.com/InzGIBA/JSON-Resume) | My resume in the jsonresume.org format |
 
-#### Open source contributions
+### Open source contributions
 
 | Upstream | Area | PRs |
 |---|---|---|
@@ -25,11 +33,12 @@ I build Python and Go services, and I reverse engineer game protocols and firmwa
 | [phasmoeditor](https://github.com/cnnrde/phasmoeditor) | Phasmophobia save editor: save parser refactor | 7 |
 | [vibe](https://github.com/di-sukharev/vibe) | Template hardening: fixed secrets leaking into the docker image | 5 |
 
-#### Stack
+### Activity
 
-Python - Django - FastAPI - Go - TypeScript - Vue - Flutter - PostgreSQL - Docker - C++ (hobby: game engine internals)
+<img src="https://streak-stats.demolab.com?user=InzGIBA&hide_border=true" alt="contribution streak" width="560" />
 
-#### Contact
+### Stack
 
-- Email: a.baktubayev@gmail.com
-- Site: [inzgiba.me](https://inzgiba.me)
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,go,ts,vue,flutter,postgres,docker,redis,git,linux&perline=10" alt="tech stack icons" /></a>
+
+C++ as a hobby: game engine internals.
