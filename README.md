@@ -1,5 +1,23 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="almas@wog terminal: whoami, stack, status, contacts" width="880" />
-  <br />
-  <img src="assets/info.svg" alt="Projects and open source contributions infographic" width="880" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg" />
+  <img alt="Almas Baktubayev — senior backend engineer" src="assets/header-light.svg" width="960" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about.svg" />
+  <img alt="About" src="assets/about-light.svg" width="960" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg" />
+  <img alt="Stack" src="assets/stack-light.svg" width="960" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects.svg" />
+  <img alt="Projects" src="assets/projects-light.svg" width="960" />
+</picture>
+
 </p>
