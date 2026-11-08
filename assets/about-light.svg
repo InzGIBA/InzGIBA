@@ -32,8 +32,8 @@
 
   <g>
     <rect class="panel" x="32" y="70" width="290" height="120" rx="10"/>
-    <text class="k" x="52" y="102">ROLE</text>
-    <text class="v" x="52" y="150" font-size="15">senior backend engineer</text>
+    <text class="k" x="52" y="102">SIDE QUEST</text>
+    <text class="v" x="52" y="150" font-size="15">protocol archaeology</text>
   </g>
   <g>
     <rect class="panel" x="335" y="70" width="290" height="120" rx="10"/>
