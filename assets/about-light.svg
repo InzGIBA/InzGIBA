@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="268" viewBox="0 0 960 268" role="img" aria-label="About">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'Liberation Mono', Menlo, Consolas, monospace; }
+      .bg { fill: #ffffff; }
+      .panel { fill: #f6f8fa; stroke: #d0d7de; }
+      .tick { stroke: #d0d7de; }
+      .k { fill: #59636e; font-size: 11px; letter-spacing: 2.2px; }
+      .v { fill: #1f2328; font-size: 18px; }
+      .sub { fill: #59636e; font-size: 13px; }
+      .gold { fill: #9a6700; }
+      .frame { stroke: #d0d7de; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg frame" x="1" y="1" width="958" height="266" rx="18" stroke-width="1.25"/>
+  <g class="tick" fill="none" stroke-width="1.25">
+    <path d="M22 22 H38 M22 22 V38"/>
+    <path d="M938 22 H922 M938 22 V38"/>
+    <path d="M22 246 H38 M22 246 V230"/>
+    <path d="M938 246 H922 M938 246 V230"/>
+  </g>
+
+  <rect x="32" y="34" width="8" height="8" rx="1" class="gold">
+    <animate class="motion" attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="k gold" x="50" y="43">ABOUT</text>
+  <text class="k" x="928" y="43" text-anchor="end">9 YEARS IN PRODUCTION</text>
+
+  <g>
+    <rect class="panel" x="32" y="70" width="290" height="120" rx="10"/>
+    <text class="k" x="52" y="102">ROLE</text>
+    <text class="v" x="52" y="150" font-size="15">senior backend engineer</text>
+  </g>
+  <g>
+    <rect class="panel" x="335" y="70" width="290" height="120" rx="10"/>
+    <text class="k" x="355" y="102">LOCATION</text>
+    <text class="v" x="355" y="140">Almaty</text>
+    <text class="sub" x="355" y="164">Kazakhstan</text>
+  </g>
+  <g>
+    <rect class="panel" x="638" y="70" width="290" height="120" rx="10"/>
+    <text class="k" x="658" y="102">COMPANY</text>
+    <text class="v" x="658" y="140">SHARD</text>
+    <text class="gold" x="658" y="164" font-size="13">shard.team</text>
+  </g>
+
+  <text class="gold" x="32" y="228" font-size="13">inzgiba.me</text>
+  <text class="sub" x="480" y="228" text-anchor="middle">github.com/InzGIBA</text>
+  <text class="sub" x="928" y="228" text-anchor="end">a.baktubayev@gmail.com</text>
+</svg>
