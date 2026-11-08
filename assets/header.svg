@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="196" viewBox="0 0 960 196" role="img" aria-label="Almas Baktubayev">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'Liberation Mono', Menlo, Consolas, monospace; }
+      .bg { fill: #0d1117; }
+      .tick { stroke: #30363d; }
+      .k { fill: #8b949e; font-size: 11px; letter-spacing: 2.2px; }
+      .name { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; font-size: 48px; letter-spacing: -1.4px; }
+      .gold { fill: #d29922; }
+      .mute { fill: #8b949e; font-size: 14px; }
+      .rule { stroke: #30363d; }
+      .mark { fill: #161b22; stroke: #30363d; }
+      .frame { stroke: #30363d; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+      }
+    </style>
+    <linearGradient id="sheenH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d29922" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d29922" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#d29922" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect class="bg frame" x="1" y="1" width="958" height="194" rx="18" stroke-width="1.25"/>
+  <rect class="motion" x="28" y="1" width="160" height="1.5" fill="url(#sheenH)">
+    <animate attributeName="x" values="28;770;28" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <g class="tick" fill="none" stroke-width="1.25">
+    <path d="M22 22 H38 M22 22 V38"/>
+    <path d="M938 22 H922 M938 22 V38"/>
+    <path d="M22 174 H38 M22 174 V158"/>
+    <path d="M938 174 H922 M938 174 V158"/>
+  </g>
+
+  <rect x="32" y="34" width="8" height="8" rx="1" class="gold">
+    <animate class="motion" attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="k gold" x="50" y="43">INZGIBA</text>
+  <text class="k" x="928" y="43" text-anchor="end">SHARD.TEAM</text>
+
+  <text class="name" x="32" y="116">Almas Baktubayev</text>
+  <text class="gold" x="32" y="154" font-size="16" letter-spacing="0.2">senior backend engineer</text>
+  <text class="mute" x="928" y="154" text-anchor="end">Almaty  ·  SHARD</text>
+</svg>
